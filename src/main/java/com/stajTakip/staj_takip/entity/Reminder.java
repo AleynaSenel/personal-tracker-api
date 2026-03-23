@@ -8,7 +8,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity       //veritabanı bağlantısı
-public class Reminder {
+public class Reminder {                     //veritabanı tablosu
 
     @Id   //primary key olduğunu belirtiyoruz
     @GeneratedValue(strategy = GenerationType.IDENTITY)   //id'lerin 1,2,3 olarak artmasını sağlar

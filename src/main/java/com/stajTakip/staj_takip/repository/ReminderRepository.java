@@ -4,6 +4,6 @@ import com.stajTakip.staj_takip.entity.Reminder;
 import org.springframework.data.jpa.repository.JpaRepository; 
 
 public interface ReminderRepository extends JpaRepository<Reminder, Long>{
-    
+      // veri tabanı interface. sadece servise katmanından emir alır.
     
 }
